@@ -1,0 +1,45 @@
+<title>ActivateMe Partners Strip</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+  /* Layout: a quiet review sheet; each option is a white band exactly as it will sit on the site. */
+  :root {
+    --bg: #f3f2f7; --fg: #1d1a26; --muted: #625d70; --line: #dcd9e4;
+    --orange: #F26B1D; --purple: #5B21C4;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+    --bg: #17151d; --fg: #f1eff6; --muted: #a7a1b5; --line: #2e2a38; --purple: #a98bf0; color-scheme: dark } }
+  :root[data-theme="dark"] {
+    --bg: #17151d; --fg: #f1eff6; --muted: #a7a1b5; --line: #2e2a38; --purple: #a98bf0; color-scheme: dark }
+  body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-size: 15px; line-height: 1.5 }
+  .wrap { max-width: 760px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 32px 8px }
+  h1 { font-size: 26px; line-height: 1.2; margin: 0 0 8px; text-wrap: balance }
+  p { margin: 0 0 12px; color: var(--muted); max-width: 65ch }
+  h2 { font-size: 13px; letter-spacing: .1em; text-transform: uppercase; margin: 0 0 4px; display: flex; gap: 8px; align-items: center }
+  h2::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--orange) }
+  .tag { font-size: 11px; letter-spacing: .06em; color: var(--purple); border: 1px solid currentColor; border-radius: 99px; padding: 1px 8px; text-transform: none }
+  section { margin-top: 28px }
+  .band { border-block: 1px solid var(--line); background: #fff }
+  .hint { font-size: 13px }
+</style>
+
+<div class="wrap">
+  <h1>ActivateMe Fest partners strip</h1>
+  <p>Live preview of both layouts, running the same code the website will use. Hover a row to pause it. On a phone, try both widths by rotating.</p>
+  <p class="hint">This is a private preview only. The real address comes once the repo is connected to Cloudflare Pages.</p>
+  <section>
+    <h2>Option B: two rows <span class="tag">recommended</span></h2>
+    <p class="hint">Headline partners and partners on top, the 24 academies and clubs underneath, scrolling the other way.</p>
+  </section>
+</div>
+<div class="band"><script src="embed.js" data-layout="b"></script></div>
+
+<div class="wrap">
+  <section>
+    <h2>Option A: one row</h2>
+    <p class="hint">Everyone in a single loop: the headline four first, then partners, then the academies and clubs.</p>
+  </section>
+</div>
+<div class="band"><script src="embed.js" data-layout="a"></script></div>
+<div class="wrap"><p class="hint">Logos load only when the strip comes near the screen. With "reduce motion" switched on, nothing scrolls by itself and the rows can be swiped instead.</p></div>
