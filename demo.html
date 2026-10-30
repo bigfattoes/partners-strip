@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Partners strip – test page</title>
+<meta name="robots" content="noindex">
+<style>
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:#f4f4f6;color:#222}
+  .note{max-width:900px;margin:0 auto;padding:16px;font-size:14px;color:#666}
+  .stand-in{background:#fff;border-top:1px solid #eee;border-bottom:1px solid #eee;padding:28px 16px;text-align:center;color:#999;font-size:13px}
+  /* Deliberately hostile site CSS: the strip must be unaffected (Shadow DOM). */
+  img{border:4px solid red!important;padding:10px;filter:grayscale(1)}
+  div{outline:1px dashed transparent}
+</style>
+</head>
+<body>
+<p class="note">Test page. Grey box below stands in for the homepage stats strip. The partners strip is added with one script tag right under it. This page also contains hostile CSS (red borders, greyscale on every image) to prove the site's styles can't reach the strip.</p>
+<div class="stand-in">[ stats strip goes here ]</div>
+<script src="embed.js" async></script>
+<div class="stand-in">[ rest of the page ]</div>
+<p class="note">Two-row layout: <code>data-layout="b"</code>. One-row layout below: <code>data-layout="a"</code>.</p>
+<script src="embed.js" data-layout="a" async></script>
+</body>
+</html>

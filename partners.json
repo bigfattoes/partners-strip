@@ -1,0 +1,57 @@
+{
+  "layout": "b",
+  "moreToCome": "More to come…",
+  "groups": [
+    { "label": "Brought to you by", "row": 1, "logos": [
+      { "name": "MWAN Events", "file": "mwan" }
+    ]},
+    { "label": "Supported by", "row": 1, "logos": [
+      { "name": "Dubai Sports", "file": "dubai-sports" }
+    ]},
+    { "label": "Hosting partner", "row": 1, "logos": [
+      { "name": "Dubai Silicon Oasis", "file": "dso" }
+    ]},
+    { "label": "Strategic partner", "row": 1, "logos": [
+      { "name": "Dubai Shopping Festival", "file": "dsf" }
+    ]},
+    { "label": "Partners", "row": 1, "logos": [
+      { "name": "Tesla", "file": "tesla" },
+      { "name": "Fakeeh University Hospital", "file": "fakeeh" },
+      { "name": "Dubai College of Tourism", "file": "dct" },
+      { "name": "Al Mayya K9", "file": "al-mayya-k9" }
+    ]},
+    { "label": "Hospitality", "row": 1, "logos": [
+      { "name": "Radisson RED Dubai Silicon Oasis", "file": "radisson-red" }
+    ]},
+    { "label": "Food & drinks", "row": 1, "logos": [
+      { "name": "Chocodate", "file": "chocodate" },
+      { "name": "Snowie Time", "file": "snowie-time" }
+    ]},
+    { "label": "Academies & clubs", "row": 2, "logos": [
+      { "name": "Diamond Academy", "file": "club-01" },
+      { "name": "Drum Corps United", "file": "club-02" },
+      { "name": "Etiquette for Everyone", "file": "club-03" },
+      { "name": "Falcons Wings", "file": "club-04" },
+      { "name": "3D UAE", "file": "club-05" },
+      { "name": "Urbanball FC", "file": "club-06" },
+      { "name": "Archery Garden", "file": "club-07" },
+      { "name": "Ascend EdTech", "file": "club-08" },
+      { "name": "Real Madrid Foundation Educational Football Program Dubai", "file": "club-09" },
+      { "name": "The Overlord Academy", "file": "club-10" },
+      { "name": "Infinite Sports", "file": "club-11" },
+      { "name": "Absolute Basketball", "file": "club-12" },
+      { "name": "Absolute Gymnastics", "file": "club-13" },
+      { "name": "Absolute Swimming", "file": "club-14" },
+      { "name": "IJF Academy", "file": "club-15" },
+      { "name": "Infinite Camps", "file": "club-16" },
+      { "name": "MVP Sport Services", "file": "club-17" },
+      { "name": "Hip Hop Cardio", "file": "club-18" },
+      { "name": "Wolfi's Cycling Academy", "file": "club-19" },
+      { "name": "icode jr", "file": "club-20" },
+      { "name": "British Dance Academy", "file": "club-21" },
+      { "name": "Dubai Basketball", "file": "club-22" },
+      { "name": "Habeati Studios", "file": "club-23" },
+      { "name": "Skim UAE", "file": "club-24" }
+    ]}
+  ]
+}

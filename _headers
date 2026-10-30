@@ -1,0 +1,14 @@
+/embed.js
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=300
+
+/partners.json
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=300
+
+/logos/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=86400
+
+/
+  Cache-Control: public, max-age=300
